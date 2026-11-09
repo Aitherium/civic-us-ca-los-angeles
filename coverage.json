@@ -1,0 +1,31 @@
+{
+  "counts": {
+    "bodies": 4,
+    "jurisdiction": 1,
+    "measures": 0,
+    "meetings": 0,
+    "offices": 18,
+    "officials": 10,
+    "sources": 8
+  },
+  "gaps": [
+    "Council Districts 1-15 are listed as offices with no official: the cache resolves the mayor but not council members, so a crowd submission fills each seat.",
+    "no meeting records: the City Clerk publishes agendas as PDFs; meeting ingestion is slice 2",
+    "no measure records: council-file ingestion is slice 2",
+    "global-law has no corpus for jur:us-ca:place:0644000 yet; nearest: state (united-states/california), country (united-states/federal). This repo references those corpora by path and pinned commit and never copies their text."
+  ],
+  "id": "jur:us-ca:place:0644000",
+  "lookup_gaps": [],
+  "schema_version": "civic/1",
+  "sources": [
+    "source:eface1276269399b",
+    "source:d67cc2aa6a7260fe",
+    "source:c6d4b0567ed921dc",
+    "source:3382c277d794eaa1",
+    "source:608526d4f038440a",
+    "source:f885d50ccb05f78b",
+    "source:1ff83857c549a7a2",
+    "source:b359af7e40cc4bdc"
+  ],
+  "status": "seed"
+}
